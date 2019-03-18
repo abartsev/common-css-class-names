@@ -1,3 +1,5 @@
+<h1>Популярные названия классов HTML/CSS</h1>
+
 <div class="post-content">
 			<h2>Блоки</h2>
 <p><code>page</code> — корневой элемент страницы</p>
@@ -75,6 +77,5 @@
 <p><code>modal</code> — модальное (диалоговое) окно</p>
 <p><code>popup</code> — всплывающее окно</p>
 <p><code>tooltip</code>, <code>tip</code> — всплывающие подсказки</p>
-<p><code>preview</code> — анонс, отрывок, например новости или поста, может состоять из заголовка, описания и картинки. Предполагается ссылка на полную версию</p>
-<p style="text-align: right; color: rgba(0, 0, 0, 0.6); font-size: 13px;">Источник: <a href="https://github.com/yoksel/common-words" target="_blank" rel="noopener noreferrer">«Слова, часто используемые в CSS-классах»</a></p>
+<p><code>preview</code> — анонс, отрывок, например новости или поста, может состоять из заголовка, описания и картинки. 
 		</div>
