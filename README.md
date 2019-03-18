@@ -1,144 +1,80 @@
-Популярные названия классов HTML/CSS
-#Блоки
-page — корневой элемент страницы
-
-header — шапка (страницы или элемента)
-
-footer — подвал (страницы или элемента)
-
-section — раздел контента (один из нескольких)
-
-body — основная часть (страницы или элемента)
-
-content — содержимое элемента
-
-sidebar — боковая колонка (страницы или элемента)
-
-aside — блок с дополнительной информацией
-
-widget — виджет, например, в боковой колонке
-
-#Раскладка
-wrapper, wrap — обёртка, обычно внешняя
-
-inner — внутренняя обёртка
-
-container, holder, box — контейнер
-
-grid — раскладка (страницы или элемента) в виде сетки (обычно содержит в себе row и col)
-
-row — контейнер в виде строки
-
-col, column — контейнер в виде столбца
-
-#Элементы управления
-button, btn — кнопка, например, для отправки формы
-
-control — элемент управления, например, стрелки «Вперёд/назад» в фотогалерее, кнопки управления слайдером
-
-dropdown — выпадающий список
-
-Текст
-title, subject, heading, headline, caption — заголовок
-
-subtitle — подзаголовок
-
-slogan — слоган
-
-lead, tagline — лид-абзац в тексте
-
-text — текстовый контент
-
-desc — описание, вариант текстового контента
-
-excerpt — отрывок текста, обычно используется перед ссылкой «Читать далее…»
-
-link — ссылка
-
-copyright, copy — копирайт
-
-#Списки
-list, items — список
-
-item — элемент списка
-
-#Изображения
-image, img, picture, pic — картинка
-
-icon — иконка
-
-logo — логотип
-
-userpic, avatar — юзерпик, маленькая картинка пользователя
-
-thumbnail, thumb — миниатюра, уменьшенное изображение
-
-#Медиавыражения
-phone, mobile — мобильные устройства
-
-phablet — телефоны с большим экраном (6-7″)
-
-tablet — планшеты
-
-notebook, laptop — ноутбуки
-
-desktop — настольные компьютеры
-
-#Размеры
-tiny — маленький, крохотный
-
-small — небольшой
-
-medium — средний
-
-big, large — большой
-
-huge — огромный
-
-narrow — узкий
-
-wide — широкий
-
-#Состояния
-active, current — активный элемент, например, текущий пункт меню
-
-hidden — скрытый элемент
-
-error — статус ошибки
-
-warning — статус предупреждения
-
-success — статус успешного выполнения задачи
-
-pending — состояние ожидания, например, перед сменой статуса на error или success
-
-#Дополнительно
-search — поиск
-
-socials — блок иконок соцсетей
-
-advertisement, adv, commercial, promo — рекламный блок (режутся Адблоком, не рекомендуется использовать такие классы для блоков с внутренней рекламой)
-
-features, benefits — список основных особенностей товара, услуги
-
-slider, carousel — слайдер, интерактивный элемент с прокруткой содержимого
-
-pagination — постраничная навигация
-
-user, author — пользователь, автор записи или комментария
-
-meta — блок с дополнительной информацией, например, блок тегов и даты в посте
-
-cart, basket — корзина
-
-breadcrumbs — навигационная цепочка, «хлебные крошки»
-
-more, all — ссылка на полную информацию
-
-modal — модальное (диалоговое) окно
-
-popup — всплывающее окно
-
-tooltip, tip — всплывающие подсказки
-
-preview — анонс, отрывок, например новости или поста, может состоять из заголовка, описания и картинки. Предполагается ссылка на полную версию
+<div class="post-content">
+			<h2>Блоки</h2>
+<p><code>page</code> — корневой элемент страницы</p>
+<p><code>header</code> — шапка (страницы или элемента)</p>
+<p><code>footer</code> — подвал (страницы или элемента)</p>
+<p><code>section</code> — раздел контента (один из нескольких)</p>
+<p><code>body</code> — основная часть (страницы или элемента)</p>
+<p><code>content</code> — содержимое элемента</p>
+<p><code>sidebar</code> — боковая колонка (страницы или элемента)</p>
+<p><code>aside</code> — блок с дополнительной информацией</p>
+<p><code>widget</code> — виджет, например, в боковой колонке</p>
+<h2>Раскладка</h2>
+<p><code>wrapper</code>, <code>wrap</code> — обёртка, обычно внешняя</p>
+<p><code>inner</code> — внутренняя обёртка</p>
+<p><code>container</code>, <code>holder</code>, <code>box</code> — контейнер</p>
+<p><code>grid</code> — раскладка (страницы или элемента) в виде сетки (обычно содержит в себе <code>row</code> и <code>col</code>)</p>
+<p><code>row</code> — контейнер в виде строки</p>
+<p><code>col</code>, <code>column</code> — контейнер в виде столбца</p>
+<h2>Элементы управления</h2>
+<p><code>button</code>, <code>btn</code> —  кнопка, например, для отправки формы</p>
+<p><code>control</code> — элемент управления, например, стрелки «Вперёд/назад» в фотогалерее, кнопки управления слайдером</p>
+<p><code>dropdown</code> —&nbsp;выпадающий список</p>
+<h2>Текст</h2>
+<p><code>title</code>, <code>subject</code>, <code>heading</code>, <code>headline</code>, <code>caption</code> — заголовок</p>
+<p><code>subtitle</code> — подзаголовок</p>
+<p><code>slogan</code> — слоган</p>
+<p><code>lead</code>, <code>tagline</code> — лид-абзац в тексте</p>
+<p><code>text</code> — текстовый контент</p>
+<p><code>desc</code> — описание, вариант текстового контента</p>
+<p><code>excerpt</code> — отрывок текста, обычно используется перед ссылкой «Читать далее…»</p>
+<p><code>link</code> — ссылка</p>
+<p><code>copyright</code>, <code>copy</code> — копирайт</p>
+<h2>Списки</h2>
+<p><code>list</code>, <code>items</code> — список</p>
+<p><code>item</code> — элемент списка</p>
+<h2>Изображения</h2>
+<p><code>image</code>, <code>img</code>, <code>picture</code>, <code>pic</code> — картинка</p>
+<p><code>icon</code> — иконка</p>
+<p><code>logo</code> — логотип</p>
+<p><code>userpic</code>, <code>avatar</code> — юзерпик, маленькая картинка пользователя</p>
+<p><code>thumbnail</code>, <code>thumb</code> — миниатюра, уменьшенное изображение</p>
+<h2>Медиавыражения</h2>
+<p><code>phone</code>, <code>mobile</code> —&nbsp;мобильные устройства</p>
+<p><code>phablet</code> —&nbsp;телефоны с большим экраном (6-7″)</p>
+<p><code>tablet</code> —&nbsp;планшеты</p>
+<p><code>notebook</code>, <code>laptop</code> —&nbsp;ноутбуки</p>
+<p><code>desktop</code> —&nbsp;настольные компьютеры</p>
+<h2>Размеры</h2>
+<p><code>tiny</code> — маленький, крохотный</p>
+<p><code>small</code> — небольшой</p>
+<p><code>medium</code> — средний</p>
+<p><code>big</code>, <code>large</code> — большой</p>
+<p><code>huge</code> — огромный</p>
+<p><code>narrow</code> — узкий</p>
+<p><code>wide</code> — широкий</p>
+<h2>Состояния</h2>
+<p><code>active</code>, <code>current</code> — активный элемент, например, текущий пункт меню</p>
+<p><code>hidden</code> — скрытый элемент</p>
+<p><code>error</code> — статус ошибки</p>
+<p><code>warning</code> — статус предупреждения</p>
+<p><code>success</code> — статус успешного выполнения задачи</p>
+<p><code>pending</code> — состояние ожидания, например, перед сменой статуса на error или success</p>
+<h2>Дополнительно</h2>
+<p><code>search</code> — поиск</p>
+<p><code>socials</code> — блок иконок соцсетей</p>
+<p><code>advertisement</code>, <code>adv</code>, <code>commercial</code>, <code>promo</code> — рекламный блок (режутся Адблоком, не рекомендуется использовать такие классы для блоков с внутренней рекламой)</p>
+<p><code>features</code>, <code>benefits</code> — список основных особенностей товара, услуги</p>
+<p><code>slider</code>, <code>carousel</code> — слайдер, интерактивный элемент с прокруткой содержимого</p>
+<p><code>pagination</code> — постраничная навигация</p>
+<p><code>user</code>, <code>author</code> — пользователь, автор записи или комментария</p>
+<p><code>meta</code> — блок с дополнительной информацией, например, блок тегов и даты в посте</p>
+<p><code>cart</code>, <code>basket</code> — корзина</p>
+<p><code>breadcrumbs</code> — навигационная цепочка, «хлебные крошки»</p>
+<p><code>more</code>, <code>all</code> — ссылка на полную информацию</p>
+<p><code>modal</code> — модальное (диалоговое) окно</p>
+<p><code>popup</code> — всплывающее окно</p>
+<p><code>tooltip</code>, <code>tip</code> — всплывающие подсказки</p>
+<p><code>preview</code> — анонс, отрывок, например новости или поста, может состоять из заголовка, описания и картинки. Предполагается ссылка на полную версию</p>
+<p style="text-align: right; color: rgba(0, 0, 0, 0.6); font-size: 13px;">Источник: <a href="https://github.com/yoksel/common-words" target="_blank" rel="noopener noreferrer">«Слова, часто используемые в CSS-классах»</a></p>
+		</div>
